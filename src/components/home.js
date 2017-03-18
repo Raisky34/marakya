@@ -6,7 +6,7 @@ import Info from './home/info';
 export default class Home extends React.Component{
   render() {
     return(
-      <div>
+      <div className="main">
         Home page
         <Info />
         <Contact />
