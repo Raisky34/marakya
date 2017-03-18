@@ -2,8 +2,9 @@
   "name": "react-todos",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./src/entry.js",
   "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --config ./webpack.prod.config.js --progress --colors",
     "start": "node server"
   },
   "keywords": [],
