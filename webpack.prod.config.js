@@ -51,10 +51,5 @@ module.exports = {
           loader: 'file'
         }
     ]
-  },
-  plugins: [
-        new ExtractTextPlugin('styles.css', {
-            allChunks: true
-        })
-    ]
+  }
 }
