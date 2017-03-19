@@ -24,7 +24,7 @@ export default class Header extends React.Component{
                   <li><Link to="/about">About</Link></li>
                 </ul>
                 <ul className="nav navbar-nav navbar-right">
-                  <li><a>Телефон: +375(29)126-49-79</a></li>
+                  <li><a href="tel:+375(29)126-49-79">Телефон:+375(29)126-49-79</a></li>
                 </ul>
               </div>
             </div>
